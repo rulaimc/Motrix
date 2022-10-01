@@ -89,7 +89,7 @@
 .task-item {
   position: relative;
   min-height: 78px;
-  padding: 16px 12px;
+  padding: 3px 12px;
   background-color: $--task-item-background;
   border: 1px solid $--task-item-border-color;
   border-radius: 6px;
@@ -100,7 +100,7 @@
   }
   .task-item-actions {
     position: absolute;
-    top: 16px;
+    top: 30px;
     right: 12px;
   }
 }
@@ -109,8 +109,8 @@
 }
 .task-name {
   color: #505753;
-  margin-bottom: 1.5rem;
-  margin-right: 200px;
+  margin-bottom: 0.5rem;
+  margin-right: 0;
   word-break: break-all;
   min-height: 26px;
   &> span {
