@@ -29,7 +29,7 @@
           <i><mo-icon name="arrow-down" width="10" height="14" /></i>
           <span>{{ task.downloadSpeed | bytesToSize }}/s</span>
         </div>
-        <div class="task-speed-text hidden-sm-and-down" v-if="remaining > 0">
+        <div style="width: 110px;" class="task-speed-text hidden-sm-and-down" v-if="remaining > 0">
           <span>
             {{
               remaining | timeFormat({
